@@ -104,17 +104,12 @@
       <!-- akhir navbar  -->
   
       <!-- body content -->
-      <div class="coba sm:ml-60 flex bg-gray-200 dark:bg-gray-800 justify-center " >
+      <div class="coba sm:ml-60 flex bg-gray-200 dark:bg-gray-600 justify-center " >
         @yield('coba')
       </div>  
       <!-- Akkhir content -->
   
-      <!-- footer -->
-  
-      <footer class="fixed bottom-0 left-0 z-40 w-full p-4 bg-white border-t border-gray-200 shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800 dark:border-gray-600">
-        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="" class="hover:underline">YourUniverse™</a>. All Rights Reserved. </span>
-        
-      </footer>
+
   
       <!-- Akhir footer -->
       <!-- animetion -->

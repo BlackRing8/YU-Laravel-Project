@@ -12,6 +12,12 @@
     }
 }
 
+//body sampul shadow
+.sampul {
+    box-shadow: 0 0 5px yellow, 0 0 25px yellow, 0 0 50px yellow,
+        0 0 200px yellow;
+}
+
 /* Button */
 .wrapper {
 }
@@ -44,7 +50,7 @@
     left: 0;
     width: 100%;
     height: 3px;
-    background: linear-gradient(90deg, transparent, #03e9f4);
+    background: linear-gradient(90deg, transparent, red);
     animation: animate1 1s infinite;
 }
 
@@ -62,7 +68,7 @@
     right: 0;
     width: 3px;
     height: 100%;
-    background: linear-gradient(180deg, transparent, #03e9f4);
+    background: linear-gradient(180deg, transparent, green);
     animation: animate2 1s infinite;
     animation-delay: 0.25s;
 }
@@ -80,7 +86,7 @@
     right: 0;
     width: 100%;
     height: 3px;
-    background: linear-gradient(270deg, transparent, #03e9f4);
+    background: linear-gradient(270deg, transparent, blue);
     animation: animate3 1s infinite;
     animation-delay: 0.5s;
 }
@@ -99,7 +105,8 @@
     left: 0;
     width: 3px;
     height: 100%;
-    background: linear-gradient(360deg, transparent, #03e9f4);
+    background: linear-gradient(360deg, transparent, purple
+    );
     animation: animate4 1s infinite;
     animation-delay: 0.75s;
 }
