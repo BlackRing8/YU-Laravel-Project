@@ -1,4 +1,4 @@
-@extends('layout.src')
+@extends('side.src')
 
 
   @section('coba-src')

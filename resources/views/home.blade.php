@@ -30,6 +30,7 @@
 
         <div class="flex h-44 w-auto bg-white dark:bg-black mx-4 mt-8 rounded-xl "data-aos="fade-up">        
           <div id="controls-carousel" class="relative w-full" data-carousel="static">
+            <h1 class="text-black dark:text-white font-semibold text-lg text-center mt-1 border-b-2 border-black dark:border-white">TYPE YU</h1>
           <!-- Carousel wrapper -->
           <div class="relative h-56 overflow-hidden rounded-lg  md:h-96">
               <!-- Cover 1 -->
@@ -50,7 +51,7 @@
             <button class="hidden h-44 duration-700 ease-in-out"data-modal-target="span-detail-2" data-modal-toggle="span-detail-2" data-carousel-item
               type="button">
                   <div class="flex flex-wrap bg-white dark:bg-black h-44 w-full rounded-xl">
-                      <img src="image/cover/Cover.png" class="w-28 h-40 rounded-xl mx-auto my-auto">
+                      <img src="image/cover/System.jpg" class="w-28 h-40 rounded-xl mx-auto my-auto">
                       <div class=" w-52">
                         <h1 class="font-bold text-xl ml-3 mt-2 flex dark:text-yellow-200">Judul Buku</h1>
                         <h1 class="ml-3 dark:text-yellow-200 flex">Penulis</h1> 
@@ -102,8 +103,7 @@
           </div>
         </div>
 
-        <div class="flex h-44 w-full "data-aos="fade-up">
-        </div>
+
          
         {{-- Modal Box di section carousel --}}
         <div id="span-detail-1" tabindex="-1" class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full transition-transform">
@@ -240,6 +240,33 @@
         </div>
         {{-- Akhir modal boc --}}
          
+        <div class="h-60 w-full  mt-16"data-aos="fade-up">
+            <div class="flex w-full h-20">
+                <h1 class="font-semibold m-4 text-3xl dark:text-white">Original YU?</h1>
+            </div>
+            <div class="flex w-auto h-60  text-black dark:text-white ml-4">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga cum maiores totam vero repudiandae doloremque qui ex nobis, odit praesentium incidunt excepturi ducimus nihil ipsum tempora quam temporibus error officia.</p>
+            </div>
+        </div>
+
+        <div class="flex">
+            <h1 class="dark:text-white">bacaan</h1>
+        </div>
+        <div class="grid grid-cols-4 w-full gap-4  py-4 px-1">
+            <a class="flex rounded bg-white h-32 dark:bg-gray-800 items-center justify-center" href="">
+                  <img class="h-full w-full " src="image/cover/cover.png"/>  
+            </a>
+            <a class="flex rounded bg-white h-32 dark:bg-gray-800 items-center justify-center" href="">
+                  <img class="h-full w-full " src="image/cover/poster1.jpg"/>  
+            </a>
+            <a class="flex rounded bg-white h-32 dark:bg-gray-800 items-center justify-center" href="">
+                  <img class="h-full w-full " src="image/cover/lightfall.png"/>  
+            </a>
+            <a class="flex rounded bg-white h-32 dark:bg-gray-800 items-center justify-center" href="">
+                  <img class="h-full w-full " src="image/cover/enhel.jpeg"/>  
+            </a>       
+        </div>
+ 
       </div>
     </div>
   @endsection
